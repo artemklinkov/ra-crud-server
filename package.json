@@ -1,0 +1,20 @@
+{
+  "name": "crud-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ArtemKlinkov/ra-crud-server.git",
+  "author": "Artem <artemklinkov@yandex.ru>",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "forever": "^1.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6"
+  }
+}
